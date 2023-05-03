@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/lg/9fhjsjp14vz2kyr4qqk41t7m0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/samueljon/Library/Application Support/JetBrains/IntelliJIdea2022.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure, Some(42f82bbd-e065-4f5c-a60e-a1fdfe2ede8c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/lg/9fhjsjp14vz2kyr4qqk41t7m0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers"), None, Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new values will be used by cleanKeepGlobs[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefining [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Global / sbtStructureOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Global / sbtStructureOutputFile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	history[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shellPrompt[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe new values will be used by [0m
+[0m[[0m[0mdebug[0m] [0m[0m	cleanKeepGlobs[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to cs5614_finalProject_1 (in build file:/Users/samueljon/Desktop/Virginia%20Tech/Spring2023/CS5614%20-%20Big%20Data%20Engineering/Labs-Homework/Final%20Project/source/cs5614_finalProject_1/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(apply -cp "/Users/samueljon/Library/Application Support/JetBrains/IntelliJIdea2022.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar" org.jetbrains.sbt.CreateTasks, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mApplying State transformations org.jetbrains.sbt.CreateTasks from /Users/samueljon/Library/Application Support/JetBrains/IntelliJIdea2022.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2021.3.0/sbt-structure-extractor-2021.3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to cs5614_finalProject_1 (in build file:/Users/samueljon/Desktop/Virginia%20Tech/Spring2023/CS5614%20-%20Big%20Data%20Engineering/Labs-Homework/Final%20Project/source/cs5614_finalProject_1/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(preferScala2, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Global / dumpStructure[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructure[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWriting structure to /private/var/folders/lg/9fhjsjp14vz2kyr4qqk41t7m0000gn/T/sbt-structure.xml...[0m
+[0m[[0m[0minfo[0m] [0m[0mDone.[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Apr 29, 2023, 6:26:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

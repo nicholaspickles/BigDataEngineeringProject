@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.91" lines-valid="22" lines-covered="20" branches-valid="4" branches-covered="3" branch-rate="0.75" complexity="0" version="1.0" timestamp="1683143042922">
+    <sources>
+        <source>--source</source>
+        <source>
+            /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala
+        </source>
+    </sources>
+    <packages>
+        <package name="&lt;empty&gt;" line-rate="0.91" branch-rate="0.75" complexity="0">
+            <classes>
+                <class name="udf_incorrect" filename="udf_incorrect.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/udf_incorrect/readFile" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="10" hits="1" branch="true"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="true"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="10" hits="1" branch="true"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="true"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="udf_correct" filename="udf_correct.scala" line-rate="0.82" branch-rate="0.50" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/udf_correct/readFile" signature="()V" line-rate="0.82" branch-rate="0.50" complexity="0">
+                            <lines>
+                                <line number="13" hits="1" branch="true"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="10" hits="0" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="10" hits="0" branch="true"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="13" hits="1" branch="true"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="10" hits="0" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="10" hits="0" branch="true"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

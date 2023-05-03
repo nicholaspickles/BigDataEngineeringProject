@@ -1,0 +1,334 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          udf_correct.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier, monospace;'>1 <span style=''>object udf_correct {
+</span>2 <span style=''>  def readFile(filename: String): Map[String, Int] = {
+</span>3 <span style=''>    val counter = </span><span style='background: #AEF1AE'>scala.io.Source.fromFile(filename)
+</span>4 <span style=''></span><span style='background: #AEF1AE'>      .getLines
+</span>5 <span style=''></span><span style='background: #AEF1AE'>      .flatMap(_.split(&quot;\\W+&quot;))
+</span>6 <span style=''></span><span style='background: #AEF1AE'>      .foldLeft(Map.empty[String, Int]) {
+</span>7 <span style=''></span><span style='background: #AEF1AE'>        (count, word) =&gt;
+</span>8 <span style=''></span><span style='background: #AEF1AE'>          count + (word -&gt; {
+</span>9 <span style=''></span><span style='background: #AEF1AE'>            if (word.endsWith(&quot;ly&quot;)) {
+</span>10 <span style=''></span><span style='background: #AEF1AE'>              </span><span style='background: #F0ADAD'>-100</span><span style='background: #AEF1AE'>
+</span>11 <span style=''></span><span style='background: #AEF1AE'>            }
+</span>12 <span style=''></span><span style='background: #AEF1AE'>            else {
+</span>13 <span style=''></span><span style='background: #AEF1AE'>              count.getOrElse(word, 0) + 1
+</span>14 <span style=''></span><span style='background: #AEF1AE'>            }
+</span>15 <span style=''></span><span style='background: #AEF1AE'>          })
+</span>16 <span style=''></span><span style='background: #AEF1AE'>      }</span><span style=''>
+</span>17 <span style=''>    return counter
+</span>18 <span style=''>  }
+</span>19 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Tests</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          160
+          -
+          175
+        </td>
+        <td>
+          ApplyImplicitView
+        </td>
+        <td>
+          scala.Predef.refArrayOps
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.refArrayOps[String](x$1.split(&quot;\\W+&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          160
+          -
+          175
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.split
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          x$1.split(&quot;\\W+&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          94
+          -
+          441
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.TraversableOnce.foldLeft
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          scala.io.Source.fromFile(filename)(io.this.Codec.fallbackSystemCodec).getLines().flatMap[String](((x$1: String) =&gt; scala.Predef.refArrayOps[String](x$1.split(&quot;\\W+&quot;)))).foldLeft[scala.collection.immutable.Map[String,Int]](scala.Predef.Map.empty[String, Int])(((count: scala.collection.immutable.Map[String,Int], word: String) =&gt; count.+[Int](scala.Predef.ArrowAssoc[String](word).-&gt;[Int](if (word.endsWith(&quot;ly&quot;))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1)))))
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          193
+          -
+          215
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.immutable.Map.empty
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.Map.empty[String, Int]
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          254
+          -
+          433
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.Map.+
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          count.+[Int](scala.Predef.ArrowAssoc[String](word).-&gt;[Int](if (word.endsWith(&quot;ly&quot;))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1)))
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          263
+          -
+          420
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.ArrowAssoc.-&gt;
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.ArrowAssoc[String](word).-&gt;[Int](if (word.endsWith(&quot;ly&quot;))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1))
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          289
+          -
+          308
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.endsWith
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          word.endsWith(&quot;ly&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          326
+          -
+          330
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          -100
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          326
+          -
+          330
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          -100
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          378
+          -
+          406
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          count.getOrElse[Int](word, 0).+(1)
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          378
+          -
+          406
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.+
+        </td>
+        <td>
+          test
+        </td>
+        <td style="background: #AEF1AE">
+          count.getOrElse[Int](word, 0).+(1)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

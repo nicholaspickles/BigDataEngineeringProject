@@ -1,0 +1,18 @@
+[0m[[0m[0minfo[0m] [0m[0mWaiting for measurement data to sync...[0m
+[0m[[0m[0minfo[0m] [0m[0mReading scoverage instrumentation [/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/scoverage-data/scoverage.coverage][0m
+[0m[[0m[0minfo[0m] [0m[0mReading scoverage measurements...[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating scoverage reports...[0m
+[0m[[0m[0minfo[0m] [0m[0mWritten Cobertura report [/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/coverage-report/cobertura.xml][0m
+[0m[[0m[0minfo[0m] [0m[0mWritten XML coverage report [/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/scoverage-report/scoverage.xml][0m
+[0m[[0m[0minfo[0m] [0m[0mWritten HTML coverage report [/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/scoverage-report/index.html][0m
+[0m[[0m[0minfo[0m] [0m[0mStatement coverage.: 90.91%[0m
+[0m[[0m[0minfo[0m] [0m[0mBranch coverage....: 75.00%[0m
+[0m[[0m[0minfo[0m] [0m[0mCoverage reports completed[0m
+[0m[[0m[0mdebug[0m] [0m[0mCoverage is above minimum [75.00% >= 70.00%]: Branch:Total[0m
+[0m[[0m[0mdebug[0m] [0m[0mCoverage is above minimum [90.91% >= 70.00%]: Stmt:Total[0m
+[0m[[0m[0mdebug[0m] [0m[0mCoverage is above minimum [75.00% >= 70.00%]: Branch:Package:<empty>[0m
+[0m[[0m[0mdebug[0m] [0m[0mCoverage is above minimum [90.91% >= 70.00%]: Stmt:Package:<empty>[0m
+[0m[[0m[0mdebug[0m] [0m[0mCoverage is above minimum [100.00% >= 70.00%]: Branch:File:udf_incorrect.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCoverage is above minimum [100.00% >= 70.00%]: Stmt:File:udf_incorrect.scala[0m
+[0m[[0m[31merror[0m] [0m[0mCoverage is below minimum [50.00% < 70.00%]: Branch:File:udf_correct.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mAll done. Coverage was stmt=[90.91%] branch=[75.00%][0m

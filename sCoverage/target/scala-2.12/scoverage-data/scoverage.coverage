@@ -1,0 +1,412 @@
+# Coverage data, format version: 3.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+160
+175
+5
+java.lang.String.split
+Apply
+false
+0
+false
+x$1.split("\\W+")
+
+2
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+160
+175
+5
+scala.Predef.refArrayOps
+ApplyImplicitView
+false
+0
+false
+scala.Predef.refArrayOps[String](x$1.split("\\W+"))
+
+3
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+193
+215
+6
+scala.collection.immutable.Map.empty
+TypeApply
+false
+0
+false
+scala.Predef.Map.empty[String, Int]
+
+4
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+289
+308
+9
+java.lang.String.endsWith
+Apply
+false
+0
+false
+word.endsWith("ly")
+
+5
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+326
+330
+10
+<nosymbol>
+Literal
+false
+0
+false
+-100
+
+6
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+326
+330
+10
+<nosymbol>
+Block
+true
+0
+false
+-100
+
+7
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+378
+406
+13
+scala.Int.+
+Apply
+false
+0
+false
+count.getOrElse[Int](word, 0).+(1)
+
+8
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+378
+406
+13
+scala.Int.+
+Block
+true
+0
+false
+count.getOrElse[Int](word, 0).+(1)
+
+9
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+263
+420
+8
+scala.Predef.ArrowAssoc.->
+Apply
+false
+0
+false
+scala.Predef.ArrowAssoc[String](word).->[Int](if (word.endsWith("ly"))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1))
+
+10
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+254
+433
+8
+scala.collection.immutable.Map.+
+Apply
+false
+0
+false
+count.+[Int](scala.Predef.ArrowAssoc[String](word).->[Int](if (word.endsWith("ly"))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1)))
+
+11
+src/main/scala/udf_correct.scala
+<empty>
+udf_correct
+Object
+udf_correct
+readFile
+94
+441
+6
+scala.collection.TraversableOnce.foldLeft
+Apply
+false
+0
+false
+scala.io.Source.fromFile(filename)(io.this.Codec.fallbackSystemCodec).getLines().flatMap[String](((x$1: String) => scala.Predef.refArrayOps[String](x$1.split("\\W+")))).foldLeft[scala.collection.immutable.Map[String,Int]](scala.Predef.Map.empty[String, Int])(((count: scala.collection.immutable.Map[String,Int], word: String) => count.+[Int](scala.Predef.ArrowAssoc[String](word).->[Int](if (word.endsWith("ly"))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1)))))
+
+12
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+162
+177
+5
+java.lang.String.split
+Apply
+false
+0
+false
+x$1.split("\\W+")
+
+13
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+162
+177
+5
+scala.Predef.refArrayOps
+ApplyImplicitView
+false
+0
+false
+scala.Predef.refArrayOps[String](x$1.split("\\W+"))
+
+14
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+195
+217
+6
+scala.collection.immutable.Map.empty
+TypeApply
+false
+0
+false
+scala.Predef.Map.empty[String, Int]
+
+15
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+291
+310
+9
+java.lang.String.endsWith
+Apply
+false
+0
+false
+word.endsWith("ly")
+
+16
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+328
+332
+10
+<nosymbol>
+Literal
+false
+0
+false
+-100
+
+17
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+328
+332
+10
+<nosymbol>
+Block
+true
+0
+false
+-100
+
+18
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+380
+408
+13
+scala.Int.+
+Apply
+false
+0
+false
+count.getOrElse[Int](word, 0).+(1)
+
+19
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+380
+408
+13
+scala.Int.+
+Block
+true
+0
+false
+count.getOrElse[Int](word, 0).+(1)
+
+20
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+265
+422
+8
+scala.Predef.ArrowAssoc.->
+Apply
+false
+0
+false
+scala.Predef.ArrowAssoc[String](word).->[Int](if (word.endsWith("ly"))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1))
+
+21
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+256
+435
+8
+scala.collection.immutable.Map.+
+Apply
+false
+0
+false
+count.+[Int](scala.Predef.ArrowAssoc[String](word).->[Int](if (word.endsWith("ly"))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1)))
+
+22
+src/main/scala/udf_incorrect.scala
+<empty>
+udf_incorrect
+Object
+udf_incorrect
+readFile
+96
+443
+6
+scala.collection.TraversableOnce.foldLeft
+Apply
+false
+0
+false
+scala.io.Source.fromFile(filename)(io.this.Codec.fallbackSystemCodec).getLines().flatMap[String](((x$1: String) => scala.Predef.refArrayOps[String](x$1.split("\\W+")))).foldLeft[scala.collection.immutable.Map[String,Int]](scala.Predef.Map.empty[String, Int])(((count: scala.collection.immutable.Map[String,Int], word: String) => count.+[Int](scala.Predef.ArrowAssoc[String](word).->[Int](if (word.endsWith("ly"))
+  -100
+else
+  count.getOrElse[Int](word, 0).+(1)))))
+

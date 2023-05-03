@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/cs5614_finalproject_1_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	udf_correct$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/classes/udf_correct$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	udf_incorrect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/classes/udf_incorrect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	udf_correct.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/classes/udf_correct.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	udf_incorrect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/classes/udf_incorrect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getSuspicious$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/classes/getSuspicious$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	getSuspicious.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/target/scala-2.12/classes/getSuspicious.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

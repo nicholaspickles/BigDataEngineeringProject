@@ -1,0 +1,95 @@
+<scoverage 
+statement-count="22" statements-invoked="20" statement-rate="90.91" branch-rate="75.00" version="1.0" timestamp="1683143042958">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="22" statements-invoked="20" statement-rate="90.91">
+            <classes>
+                <class 
+                name="udf_incorrect" filename="udf_incorrect.scala" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/udf_incorrect/readFile" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="328" end="332" line="10" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="265" end="422" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="195" end="217" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="162" end="177" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="96" end="443" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="328" end="332" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="380" end="408" line="13" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="380" end="408" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="256" end="435" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="162" end="177" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_incorrect" class-type="Object" full-class-name="udf_incorrect" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_incorrect.scala" method="readFile" start="291" end="310" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="udf_correct" filename="udf_correct.scala" statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="50.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/udf_correct/readFile" statement-count="11" statements-invoked="9" statement-rate="81.82" branch-rate="50.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="378" end="406" line="13" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="94" end="441" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="160" end="175" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="326" end="330" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="289" end="308" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="378" end="406" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="160" end="175" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="254" end="433" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="263" end="420" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="193" end="215" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="udf_correct" class-type="Object" full-class-name="udf_correct" source="/Users/samueljon/Desktop/Virginia Tech/Spring2023/CS5614 - Big Data Engineering/Labs-Homework/Final Project/source/sCoverage/src/main/scala/udf_correct.scala" method="readFile" start="326" end="330" line="10" branch="true" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>
